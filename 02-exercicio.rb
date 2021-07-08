@@ -17,7 +17,7 @@ puts "Qual sua idade em segundos?"
 puts (27 * _1ano) * _1dia * _1hora * _1minuto
 
 puts "Quantos chocolates você pretende comer na vida?"
-puts (80-27) * (3.0 / _1mes) * (12 * _1mes)
+puts (80-27) * (3 / _1mes.to_f) * (12 * _1mes)
 
 puts "Se minha idade é 1232 milhões de segundos, qual é minha idade em anos?"
 puts 1232000000 / _1ano / _1dia / _1hora / _1minuto
