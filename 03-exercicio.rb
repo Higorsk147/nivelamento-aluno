@@ -47,4 +47,4 @@ def calcular_anos_por_segundo(segundo,minutos,dia,ano)
 end
 
 anos_por_segundo = calcular_anos_por_segundo(segundo,minutos,dia,ano)
-puts "resposta: " + anos_por_segundo.to_s + " anos."
+puts "resposta: " + anos_por_segundo.to_s + " ano(s)."
