@@ -2,7 +2,7 @@ def batimentos_por_minuto(idade)
    return idade * 365 * 24 * 60 * 80
     
 end
-puts "Olá, para estimar quantos batimentos ja teve em sua vida (considerando media de 80 por minuto), forneça a segunte informaçao:"
+puts "Olá, para estimar quantos batimentos ja teve em sua vida (considerando media de 80 por minuto), forneça as seguntes informações:"
 puts "Qual seu nome?"
 nome = gets.chomp
 puts
