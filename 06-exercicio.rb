@@ -1,7 +1,6 @@
 def fase_pandemica(vacinação,transmissão,ocupação)
-    if vacinação >= 0 && vacinação <= 1
-       transmissão >= 0
-       ocupação >= 0 && ocupação <= 1
+    if vacinação >= 0 && vacinação <= 1 && transmissão >= 0 && ocupação >= 0 && ocupação <= 1
+       
        
         if vacinação >= 0.8 && vacinação <= 1.0
             return "azul"
