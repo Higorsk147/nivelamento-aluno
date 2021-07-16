@@ -7,7 +7,7 @@ puts "(" + numero.to_s + ")"
 
 
 tente_novamente = 0
-while
+while true
     chute = gets.chomp
 
     if chute == "0" || chute.to_i >= 1 && chute.to_i <= 100
