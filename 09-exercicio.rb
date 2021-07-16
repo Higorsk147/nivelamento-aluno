@@ -10,17 +10,15 @@ tente_novamente = 0
 while
     chute = gets.chomp
 
-    if chute == "0" || chute.to_i >= 2 && chute.to_i <= 100
+    if chute == "0" || chute.to_i >= 1 && chute.to_i <= 100
         if chute.to_i == numero
             tente_novamente = tente_novamente +1
             puts "acertou com " + tente_novamente.to_s + " tentativas"
             break
         elsif chute.to_i > numero
-            puts "numero maior" 
+            puts "seu chute é maior que o numero correto" 
         elsif chute.to_i < numero
-            puts "numero menor" 
-        else
-            puts "errou" 
+            puts "seu chute é menor que o numero correto" 
         end
     else puts "Seu chute é invalido"  
         
