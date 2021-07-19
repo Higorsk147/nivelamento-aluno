@@ -13,15 +13,18 @@ numeros = [2,1,15,7,2,3,4,5,6,7]
     if alvo > n
         return false
     else
-        puts true
-    end
 
-     while n > alvo
-         array[n] = array[n-1] 
-         n = n - 1
-     end
-      array[alvo] = valor
- end
+        while n > alvo
+            array[n] = array[n-1] 
+            n = n - 1
+        end
+        
+        array[alvo] = valor
+        return true
+
+    end
+ 
+end
 
 puts "digite o valor a ser inserido"
 valor = gets.chomp.to_i
@@ -29,7 +32,6 @@ puts "digite a posiçao que deseja inserir o valor"
 alvo = gets.chomp.to_i
 
 numeros = [2,1,15,7,2,3,4,5,6,7]
-
 puts insere_no_array(numeros,valor,alvo)
 print numeros
  
