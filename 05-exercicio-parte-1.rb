@@ -6,9 +6,9 @@ def diametro_do_circulo(raio)
  end
 
 print "O diametro de um circulo é 2x o seu raio, informe o raio do circulo: "
-raio = gets.to_f
+  raio = gets.to_f
 
-diametro = diametro_do_circulo(raio)
+  diametro = diametro_do_circulo(raio)
 
 puts "O diametro deste circulo é: "
 puts "Resposta: " + diametro.to_s

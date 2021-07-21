@@ -9,7 +9,7 @@ numeros = [2,1,15,7,2,3,4,5,6,7]
 
 # puts numeros
  def insere_no_array(array,valor,alvo)
-     n = array.size
+    n = array.size
     if alvo > n
         return false
     else

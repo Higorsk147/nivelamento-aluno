@@ -11,7 +11,7 @@ def calcular_horas_ano(ano,dia)
     return horas_ano
 end
 
-horas_ano = calcular_horas_ano(ano,dia)
+horas_ano = calcular_horas_ano(ano,dia) 
 puts "resposta: " + horas_ano.to_s + " horas."
 
 
